@@ -1,1 +1,158 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+.portfolio {
+    display:flex;
+    background-color: black;
+    color: white;
+    width: auto;
+    height:100px;
+    justify-content: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 50px;
+
+}
+.container {
+    display: flex;
+    flex-direction: row; 
+    
+}
+
+
+.container .links a{
+    display:flex;
+    width: 75px;
+    height: 100px;
+    background-color: gray;
+    flex-wrap: wrap;
+    
+}
+
+.image {
+
+    
+    justify-content: center;
+    width:1400px;
+    height: 400px;
+    background-color: brown;
+    
+}
+
+h2 {
+
+    
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 75px;
+    justify-content: center;
+    margin: 100px;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+.intro-header{
+    display:flex;
+    border: 2px solid black;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #ffa500;
+}
+
+.intro{
+
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 20px;
+    
+}
+
+.project-header {
+
+    display:flex;
+    border: 2px solid black;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #ffa500;
+
+}
+
+.project-images {
+    display: flex;
+    
+   
+}
+
+.project-images img {
+    border: 3px solid black;
+
+   
+    
+}
+
+.project-images p {
+
+   
+    
+    
+}
+
+.project-images2{
+
+    display:flex;
+    border: 3px solid black;
+
+    
+}
+
+.project-images2 img {
+
+    
+    
+    
+}
+
+.project-images2 p {
+
+
+    
+}
+
+.project-images3{
+
+    display:flex;
+    border: 3px solid black;
+
+    
+}
+
+.project-images4{
+
+    display:flex;
+    border: 3px solid black;
+
+    
+}
+
+
+
+
