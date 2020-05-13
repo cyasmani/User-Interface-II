@@ -31,6 +31,19 @@ vertical-align: baseline;
     font-size: 50px;
 
 }
+.portfolio:hover{
+    animation-name: portfolio;
+    animation-duration: 3s;
+}
+
+@keyframes portfolio{
+
+    25%{background-color:plum ;}
+    50%{background-color: rgb(240, 44, 240);}
+    75%{background-color:rebeccapurple ;}}
+ 
+
+
 .container {
     display: flex;
     flex-direction: row; 
@@ -47,14 +60,31 @@ vertical-align: baseline;
     
 }
 
-.image {
-
-    
+.name {
     justify-content: center;
     width:1400px;
     height: 400px;
     background-color: brown;
     
+}
+
+.name h2:hover {
+
+    animation-name: name;
+    animation-duration: 5s;
+}
+
+@keyframes name {
+    0%{opacity:0;
+        color:white;}
+    25%{opacity:0.2;
+        color:silver}
+    50%{opacity:0.5;
+        color:rgb(158, 157, 157)}
+    75%{opacity:0.7;
+        color:rgb(133, 131, 131);}
+    100%{opacity:1;
+        color:rgb(71, 71, 71);}
 }
 
 h2 {
@@ -109,11 +139,14 @@ h2 {
     
 }
 
-.project-images p {
+.project-images p:hover {
+    animation-name: paragraph;
+    animation-duration: 3s;
+    
+}
+@keyframes paragraph{
+    15%{font-size: 20px;}
 
-   
-    
-    
 }
 
 .project-images2{
@@ -131,17 +164,27 @@ h2 {
     
 }
 
-.project-images2 p {
+.project-images2 p:hover {
+    animation-name: paragraph;
+    animation-duration: 3s;
+    
+} 
 
 
     
-}
+
 
 .project-images3{
 
     display:flex;
     border: 3px solid black;
 
+    
+}
+
+.project-images3 p:hover {
+    animation-name: paragraph;
+    animation-duration: 3s;
     
 }
 
@@ -153,6 +196,46 @@ h2 {
     
 }
 
+.project-images4 p:hover {
+    animation-name: paragraph;
+    animation-duration: 3s;
+    
+}
+.footer{
+    display:flex;
+    background-color: black;
+    height: 100px;
+    justify-content: center;
+}
 
 
+.footer img {
+    height:50px;
+    width: 50px;
+    margin-top: 20px;
 
+}
+
+button {
+
+    height:50px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    animation-name: button;
+    animation-duration: 3s;
+
+}
+
+@keyframes button{
+
+    25%{background-color:rgb(161, 241, 161);}
+    50%{background-color:rgb(133, 241, 133);}
+    75%{background-color:rgb(33, 236, 33);}
+    100%{background-color:rgb(9, 104, 9);}
+
+}
