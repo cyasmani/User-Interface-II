@@ -69,6 +69,19 @@ h2 {
 
 }
 
+@media(max-width:500px){
+    .container .links a{
+        width: 3.3rem;
+        flex-wrap: nowrap;
+    }
+    .contactme {
+                
+                width: 28rem;
+            }
+
+
+}
+
 .input{
 
     display:flex;

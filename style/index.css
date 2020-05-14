@@ -99,6 +99,38 @@ h2 {
 
 }
 
+@media(max-width:500px){
+    .container .links a{
+        width: 3.3rem;
+        flex-wrap: nowrap;
+    }
+    .name {
+                background-color:red;
+                width: 28rem;
+                flex-direction: wrap;
+                
+            }
+    .name h2{
+
+        font-size: 4rem;
+ 
+    }
+
+    .project-images img{
+        width: 25rem;
+    }
+    .project-images2 img{
+        width: 25rem;
+    }
+    .project-images3 img{
+        width: 25rem;
+    }
+    .project-images4 img{
+        width: 25rem;
+    }
+
+}
+
 .intro-header{
     display:flex;
     border: 2px solid black;
@@ -133,6 +165,7 @@ h2 {
 }
 
 .project-images img {
+    
     border: 3px solid black;
 
    
@@ -157,12 +190,7 @@ h2 {
     
 }
 
-.project-images2 img {
 
-    
-    
-    
-}
 
 .project-images2 p:hover {
     animation-name: paragraph;

@@ -59,6 +59,19 @@ vertical-align: baseline;
     
 }
 
+@media(max-width:500px){
+    .container .links a{
+        width: 3.3rem;
+        flex-wrap: nowrap;
+    }
+    .projectme {
+                background-color:red;
+                width: 28rem;
+            }
+
+
+}
+
 h2 {
 
     font-weight: bold;
